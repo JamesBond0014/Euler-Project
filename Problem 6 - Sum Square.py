@@ -1,0 +1,9 @@
+end = 100
+sum1 = 0
+sum2 = 0
+
+for i in range(end+1):
+    sum1 += (i*i)
+    sum2 += i
+
+print(sum2*sum2 - sum1)
